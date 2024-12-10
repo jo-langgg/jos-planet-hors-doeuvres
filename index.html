@@ -3,58 +3,99 @@
   <head>
     <meta charset="utc-8">
     <title>Jo's Planet: Hors d'Oeuvres</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono">
     <!-- Made by Joanne Lang on December 10, 2024 -->
     <style>
+      /*------------------ FONTS --------------------*/
+      @font-face {
+        font-family: Alagard;
+        src: url(alagard.ttf);
+      }
+
+      @font-face {
+        font-family: Custom;
+        src: url(CustomFontTtf12H10.ttf);
+      }
+
+      /*--------------------------------------------*/
     </style>
   </head>
   <body>
-    <!-- HEADER -->
-    <h1>Jo's Planet</h1>
-    <p>easy and affordable recipes for the average broke uni student</p>
-    <ul>
-      <li><a href="https://jo-langgg.github.io/jos-planet-home/">home</a></li>
-      <li><a href="https://jo-langgg.github.io/jos-planet-hors-doeuvres/">hors d'oeuvres</a></li>
-      <li><a href="https://jo-langgg.github.io/jos-planet-salad/">salad</a></li>
-      <li><a href="https://jo-langgg.github.io/jos-planet-entree/">entrée</a></li>
-      <li><a href="https://jo-langgg.github.io/jos-planet-dessert/">dessert</a></li>
-    </ul>
-    <hr>
-    <!------------>
-    
-    <!-- MAIN -->
-    <h1>
-      Hors d’Oeuvres
-    </h1>
-    <p>
-      Small, nifty, bite-sized dishes served before a main meal. You’ve probably seen them before being passed around on a silver platter by a smartly-dressed waiter with a tiny moustache. Although you may think this type of dish can be ultra hoity-toity and super complex, hors d’oeuvres can actually be quite simple. Especially because they’re really just yummy lil’ bites of food at the end of the day.
-    </p>
-    <p>
-      The term unsurprisingly comes from the French, and translates to "outside the work", meaning they’re not part of the main course. Hors d'oeuvres are meant to be flavourful and enticing, prepping your appetite without being too filling. They can be hot or cold, served on platters, skewers, or spoons, but above all, they gotta be cute and small enough to eat in one or two bites. Check out my recipe below for a great budget-friendly hor d’oeuvre that’ll be sure to impress your friends!
-    </p>
-    
-    <img src="jors_doeuvre.jpg" alt="jo'rs d'oeuvres" width="20%">
-    <h1>Jo’rs d’Oeuvres</h1>
-    <p>
-      1. Slice up your cheese string into little slices.
-    </p>
-    <p>
-      2. Cut your apple into little pieces. The cheese-to-apple ratio might be a bit off, so feel free to snack on the rest of the apple or save it for later.
-    </p>
-    <p>
-      3. Time to assemble! Lay out your crackers on a plate and top each one with a cheese string morsel and apple piece.
-    </p>
-    <p>
-      4. Bon appetit! If you’re feeling extra fancy, you can sprinkle a minuscule amount of flaky salt (or just regular table salt) on top.
-    </p>
-    <h2>ingredients</h2>
-    <p>1 cheese string</p>
-    <p>1 apple</p>
-    <p>some crackers of your choice</p>
-    <!---------->
-    
-    <!-- FOOTER -->
-    <hr>
-    <p><a href="mailto:j2lang@uwaterloo.ca">SAY HI</a> :)</p>
-    <!------------>
+    <!--------------- HEADER ------------------->
+    <div class="header">
+      <h1>
+        <span class="small">Jo's Planet ੈ✩‧₊˚</span>
+      </h1>
+      <p><span class="slogan">easy and affordable recipes for the average broke uni student</span></p>
+      <div id="nav">
+        <ul>
+          <li><a href="https://jo-langgg.github.io/jos-planet-dessert/">dessert</a></li>
+          <li><a href="https://jo-langgg.github.io/jos-planet-entree/">entrée</a></li>
+          <li><a href="https://jo-langgg.github.io/jos-planet-salad/">salad</a></li>
+          <li><a href="https://jo-langgg.github.io/jos-planet-hors-doeuvres/">hors d'oeuvres</a></li>
+          <li><a href="https://jo-langgg.github.io/jos-planet-home/">home</a></li>
+        </ul>
+      </div>
+    </div>
+    <!------------ END OF HEADER --------------->
+
+    <!--------------- MAIN CONTENT ------------------->
+    <div class="wrapper">
+      <div class="hleft">
+        <h1><span class="large">Hors d’Oeuvres .｡*ﾟ.*.｡</span></h1>
+      </div>
+      <div id="p1container">
+        <div class="pgroup">
+          <p>
+            Small, nifty, bite-sized dishes served before a main meal. You’ve probably seen them before being passed around on a silver platter by a smartly-dressed waiter with a tiny moustache. Although you may think this type of dish can be ultra hoity-toity and super complex, hors d’oeuvres can actually be quite simple. Especially because they’re really just yummy lil’ bites of food at the end of the day.<br><br>
+            The term unsurprisingly comes from the French, and translates to "outside the work", meaning they’re not part of the main course. Hors d'oeuvres are meant to be flavourful and enticing, prepping your appetite without being too filling. They can be hot or cold, served on platters, skewers, or spoons, but above all, they gotta be cute and small enough to eat in one or two bites. Check out my recipe below for a great budget-friendly hor d’oeuvre that’ll be sure to impress your friends!
+          </p>
+        </div>
+      </div>
+
+
+      <div id="container">
+        <div id="photo">
+          <img src="jors_doeuvre.jpg" alt="jo'rs d'oeuvres" width="20%">
+        </div>
+        <div id="text">
+          <div id="large-text">
+            <h1>.·:*¨ Jo’rs d’Oeuvres ¨*:·.</h1>
+          </div>
+          <div id="small-text">
+            <div id="text-left">
+              <p>
+                1. Slice up your cheese string into little slices.
+              </p>
+              <p>
+                2. Cut your apple into little pieces. The cheese-to-apple ratio might be a bit off, so feel free to snack on the rest of the apple or save it for later.
+              </p>
+              <p>
+                3. Time to assemble! Lay out your crackers on a plate and top each one with a cheese string morsel and apple piece.
+              </p>
+              <p>
+                4. Bon appetit! If you’re feeling extra fancy, you can sprinkle a minuscule amount of flaky salt (or just regular table salt) on top.
+              </p>
+            </div>
+            <div id="text-right">
+              <h2>ingredients</h2>
+              <p>1 cheese string</p>
+              <p>1 apple</p>
+              <p>some crackers of your choice</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------ END OF MAIN CONTENT ---------------->
+
+    <!--------------- FOOTER ------------------->
+    <div class="footer">
+      <div class="contact">
+        <p><a class="link" href="mailto:j2lang@uwaterloo.ca">SAY HI</a> :)</p>
+      </div>
+    </div>
+    <!------------ END OF FOOTER ---------------->
+
   </body>
 </html>
